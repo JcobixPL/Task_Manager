@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/PNGS">
+        <file>calendar.png</file>
+        <file>cash.png</file>
+        <file>help.png</file>
+        <file>tasks.png</file>
+        <file>exit.png</file>
+    </qresource>
+</RCC>

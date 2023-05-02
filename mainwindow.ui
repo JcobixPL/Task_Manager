@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QGroupBox" name="groupBoxMenu">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>201</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Light">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>80</red>
+          <green>165</green>
+          <blue>80</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="AlternateBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>80</red>
+          <green>165</green>
+          <blue>80</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Light">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="AlternateBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>245</red>
+          <green>245</green>
+          <blue>245</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Light">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>80</red>
+          <green>165</green>
+          <blue>80</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>25</red>
+          <green>165</green>
+          <blue>111</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="AlternateBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>245</red>
+          <green>245</green>
+          <blue>245</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox {
+    background-color: #19A56F;
+	border:4px #ffffff;
+}
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButtonMyTasks">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri</family>
+       <pointsize>19</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #19a56f;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+alignment:AlignVCenter;
+    padding: 6px 12px 6px 30px; /* Dodanie marginesu po lewej stronie */
+    /* Dodanie obrazka */
+    qproperty-iconSize: 35px; /* Rozmiar ikony */
+    qproperty-icon: url(:/PNGS/tasks.png); /* Ładowanie ikony */
+    padding-left:6px;
+}
+
+QPushButton:hover, QPushButton:checked:hover {
+    background-color: #14855a; /* Kolor tła podczas najechania kursorem */
+}
+
+QPushButton:pressed, QPushButton:checked:pressed {
+    background-color: #0d593c; /* Kolor tła podczas naciśnięcia przycisku */
+}
+QPushButton:checked {
+    background-color: #0d593c; /* Kolor tła po zaznaczeniu przycisku */
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string> MY TASKS</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonSchedule">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri</family>
+       <pointsize>19</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #19a56f;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+alignment:AlignVCenter;
+    padding: 6px 12px 6px 30px; /* Dodanie marginesu po lewej stronie */
+    /* Dodanie obrazka */
+    qproperty-iconSize: 50px; /* Rozmiar ikony */
+    qproperty-icon: url(:/PNGS/calendar.png); /* Ładowanie ikony */
+    padding-left:6px;
+}
+
+QPushButton:hover, QPushButton:checked:hover {
+    background-color: #14855a; /* Kolor tła podczas najechania kursorem */
+}
+
+QPushButton:pressed, QPushButton:checked:pressed {
+    background-color: #0d593c; /* Kolor tła podczas naciśnięcia przycisku */
+}
+QPushButton:checked {
+    background-color: #0d593c; /* Kolor tła po zaznaczeniu przycisku */
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>SCHEDULE</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonExit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri</family>
+       <pointsize>19</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #19a56f;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+alignment:AlignVCenter;
+    padding: 6px 12px 6px 30px; /* Dodanie marginesu po lewej stronie */
+    /* Dodanie obrazka */
+    qproperty-iconSize: 25px; /* Rozmiar ikony */
+    qproperty-icon: url(:/PNGS/exit.png); /* Ładowanie ikony */
+    padding-left:-40px;
+
+}
+
+QPushButton:hover, QPushButton:checked:hover {
+    background-color: #14855a; /* Kolor tła podczas najechania kursorem */
+}
+
+QPushButton:pressed, QPushButton:checked:pressed {
+    background-color: #0d593c; /* Kolor tła podczas naciśnięcia przycisku */
+}
+QPushButton:checked {
+    background-color: #0d593c; /* Kolor tła po zaznaczeniu przycisku */
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>   EXIT</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>181</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Eras Bold ITC</family>
+       <pointsize>24</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel
+{
+color:black;
+font: 24pt &quot;Eras Bold ITC&quot;;
+word-wrap: break-word;
+}</string>
+     </property>
+     <property name="text">
+      <string>HOME MANAGER</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonFinances">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>190</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Calibri</family>
+       <pointsize>19</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #19a56f;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+alignment:AlignVCenter;
+    padding: 6px 12px 6px 30px; /* Dodanie marginesu po lewej stronie */
+    /* Dodanie obrazka */
+    qproperty-iconSize: 50px; /* Rozmiar ikony */
+    qproperty-icon: url(:/PNGS/cash.png); /* Ładowanie ikony */
+    padding-left:-3px;
+
+}
+
+QPushButton:hover, QPushButton:checked:hover {
+    background-color: #14855a; /* Kolor tła podczas najechania kursorem */
+}
+
+QPushButton:pressed, QPushButton:checked:pressed {
+    background-color: #0d593c; /* Kolor tła podczas naciśnięcia przycisku */
+}
+QPushButton:checked {
+    background-color: #0d593c; /* Kolor tła po zaznaczeniu przycisku */
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>FINANCES</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>-1</y>
+      <width>601</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>600</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1280</width>
+      <height>620</height>
+     </size>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QStackedWidget::up-arrow, QStackedWidget::down-arrow {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    border: none;
+}
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="pageTasks">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <widget class="QPushButton" name="pushButtonAdd">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>20</y>
+        <width>75</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADD TASK</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonEdit">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>60</y>
+        <width>75</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>EDIT TASK</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRemove">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>100</y>
+        <width>101</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>REMOVE TASK</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>501</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pageFinances">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <widget class="QPushButton" name="pushButtonAddFinance">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>570</y>
+        <width>91</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADD FINANCE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonEditFinance">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>570</y>
+        <width>101</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>EDIT FINANCE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRemoveFinance">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>570</y>
+        <width>111</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>REMOVE FINANCE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonCategories">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>570</y>
+        <width>75</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>KATEGORIE</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>10</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="maxVisibleItems">
+       <number>12</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>STYCZEŃ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>LUTY</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MARZEC</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KWIECIEŃ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MAJ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CZERWIEC</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>LIPIEC</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SIERPIEŃ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>WRZESIEŃ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>PAŹDZIERNIK</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>LISTOPAD</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GRUDZIEŃ</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>10</y>
+        <width>51</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>2023</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="labelBilansPlus">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>50</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>BILANS PRZYCHODÓW</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelPlusBalance">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>70</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>0.00 zł</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelBilansMinus">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>50</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>BILANS WYDATKÓW</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelMinusBalance">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>70</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>0.00 zł</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelBilans">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>50</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>BILANS OGÓLNY</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelBalance">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>70</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>0.00 zł</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelBilansHome">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>BUDŻET DOMOWY AKTUALNIE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelHomeBalance">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>0.00 zł</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>120</y>
+        <width>400</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>400</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1920</width>
+        <height>1080</height>
+       </size>
+      </property>
+      <column>
+       <property name="text">
+        <string>RODZAJ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>TYTUŁ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>KATEGORIA</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>KWOTA</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>119</y>
+        <width>181</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="verticalLayout_3"/>
+     </widget>
+     <widget class="QPushButton" name="pushButtonStartHomeBalance">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>570</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADD STARTER HOME BALANCE</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pageSchedule">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <widget class="QCalendarWidget" name="calendarWidget">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>-1</y>
+        <width>601</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCalendarWidget QHeaderView {
+    background-color: #FFFFFF; /* białe tło */
+    color: #000000; /* kolor tekstu */
+}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar QToolButton {
+    text-transform: uppercase; /* zmień tekst na duże litery */
+}
+QCalendarWidget QTableView QAbstractItemView:enabled:hover,
+QCalendarWidget QTableView QAbstractItemView:enabled:focus,
+QCalendarWidget QTableView QAbstractItemView:enabled:selected {
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+</string>
+      </property>
+      <property name="minimumDate">
+       <date>
+        <year>1900</year>
+        <month>1</month>
+        <day>1</day>
+       </date>
+      </property>
+      <property name="gridVisible">
+       <bool>false</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QCalendarWidget::SingleSelection</enum>
+      </property>
+      <property name="horizontalHeaderFormat">
+       <enum>QCalendarWidget::SingleLetterDayNames</enum>
+      </property>
+      <property name="verticalHeaderFormat">
+       <enum>QCalendarWidget::NoVerticalHeader</enum>
+      </property>
+      <property name="navigationBarVisible">
+       <bool>true</bool>
+      </property>
+      <property name="dateEditEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonExit</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>264</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
